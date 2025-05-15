@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube to MP3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube to MP3</h1>
+    <input id="urlInput" placeholder="YouTube URL" />
+    <button onclick="startDownload()">Prenesi</button>
+    <button onclick="checkStatus()">Preveri status</button>
+    <button id="downloadBtn" onclick="getMp3()" disabled>Prenesi MP3</button>
+    <button onclick="deleteMp3()">Izbriši</button>
+    <p id="status"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

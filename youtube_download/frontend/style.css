@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+  background: #f1f1f1;
+  padding: 2rem;
+  text-align: center;
+}
+
+input, button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 400px;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  display: inline-block;
+}
